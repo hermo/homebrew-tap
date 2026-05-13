@@ -1,20 +1,20 @@
 class Alea < Formula
   desc "Verifiable random selection using drand public randomness"
   homepage "https://github.com/hermo/alea"
-  version "0.9.11"
+  version "0.9.12"
   license "GPL-2.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/hermo/alea/releases/download/v0.9.11/alea-aarch64-apple-darwin.tar.gz"
-      sha256 "c8040f15424400fbfa7623276cc0861e4a2ea07154abfa713b887aabc0c7fbce"
+      url "https://github.com/hermo/alea/releases/download/v0.9.12/alea-aarch64-apple-darwin.tar.gz"
+      sha256 "6f8e586f11174e8b990fd60b261bff45dee844961df6bd64315c543b1a1227e7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/hermo/alea/releases/download/v0.9.11/alea-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "192b817bb0786721af0d5bc1c9ac1c13a8f2d6b4f13f1ce596fff2128dc88613"
+      url "https://github.com/hermo/alea/releases/download/v0.9.12/alea-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b4cfd6a564e2c2653acfcad43744781ca49475459334bfa7a2c6801c47f07357"
     end
   end
 
