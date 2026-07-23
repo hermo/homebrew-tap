@@ -8,6 +8,7 @@ class Finpass < Formula
 
   def install
     bin.install "finpass.ape" => "finpass"
+    chmod 0755, bin/"finpass"
   end
 
   test do
